@@ -1,0 +1,99 @@
+.contenedor {
+    display: grid;
+    gap:20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 2fr);
+    
+    grid-template-areas:    "header         header          header"
+                            "sidebar1       socd            sidebar2"
+                            "sidebar1       rotacion        sidebar2"
+                            "conectividad   intercambio     compatibilidad"
+                            "footer         footer          footer";
+
+    /*horizontal auto stretch, end, start, center
+    justify-items: center;
+    vertical
+    align-items: center; */
+
+    
+
+}
+.contenedor .header{
+    background: #f88000;
+    grid-area: header;
+}
+
+.contenedor .sidebar1{
+    background: #0800f8;
+    grid-area: sidebar1;
+
+}
+
+.contenedor .sidebar2{
+    background: #f80053;
+    grid-area: sidebar2;
+
+}
+
+.contenedor .footer{
+    background: #0a0000;
+    grid-area: footer;
+
+}
+
+.contenedor .socd{
+    justify-self: stretch;
+    align-self: center;
+    grid-area: socd;
+
+
+}
+
+.contenedor .rotacion{
+    justify-self: stretch;
+    align-self: center;
+    grid-area: rotacion;
+
+
+}
+
+.contenedor .intercambio{
+    justify-self: stretch;
+    align-self: center;
+    grid-area: intercambio;
+
+
+}
+.contenedor .compatibilidad{
+    justify-self: stretch;
+    align-self: center;
+    grid-area: compatibilidad;
+
+
+}
+.contenedor .conectividad{
+    justify-self: stretch;
+    align-self: center;
+    grid-area: conectividad;
+
+
+}
+
+@media screen and (max-width:768px){
+    body{
+        background: #0a0000;
+        color:rgb(255, 255, 255);
+        
+    }
+    .contenedor{
+        font-size: 35px;
+        grid-template-areas:    "header         header          header"
+                                "socd           socd            socd"
+                                "rotacion       rotacion        rotacion"
+                                "intercambio    intercambio     intercambio"
+                                "sidebar1       sidebar2        sidebar2"
+                                "conectividad   compatibilidad  compatibilidad"
+                                "footer         footer          footer";
+
+    }
+}
