@@ -2,7 +2,7 @@
     display: grid;
     gap:20px;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 4fr repeat(4, 2fr);
+    grid-template-rows: 400px 1fr 200px 1fr 1fr;
     
     grid-template-areas:    "header         header          header"
                             "sidebar1       socd            sidebar2"
@@ -32,7 +32,7 @@
 }
 
 .contenedor .sidebar2{
-    background: #f80053;
+    background: #000000;
     grid-area: sidebar2;
 
 }
@@ -54,6 +54,7 @@
 .contenedor .rotacion{
     /* justify-self: stretch;
     align-self: center; */
+    background: #0a0000;
     grid-area: rotacion;
 
 
@@ -83,17 +84,27 @@
 
 @media screen and (max-width:768px){
     body{
-        background: #0a0000;
+        background: #d60909;
         color:rgb(255, 255, 255);
         
     }
-    img {
+    .caja{
         width: 300px; /* anchura */
-        aspect-ratio: 16/9; /* relación de aspecto */
         
-      }
+        
+    }
+    .mishi{
+        width: 75px; /* anchura */
+        justify-self: stretch;
+        align-self: center;
+        
+
+    }
+
+
     .contenedor{
         font-size: 35px;
+        grid-template-rows: 220px repeat(4, 1fr);
         grid-template-areas:    "header         header          header"
                                 "socd           socd            socd"
                                 "rotacion       rotacion        rotacion"
