@@ -2,7 +2,7 @@
     display: grid;
     gap:20px;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(5, 2fr);
+    grid-template-rows: 4fr repeat(4, 2fr);
     
     grid-template-areas:    "header         header          header"
                             "sidebar1       socd            sidebar2"
@@ -21,6 +21,8 @@
 .contenedor .header{
     background: #f88000;
     grid-area: header;
+
+
 }
 
 .contenedor .sidebar1{
@@ -42,38 +44,38 @@
 }
 
 .contenedor .socd{
-    justify-self: stretch;
-    align-self: center;
+    /* justify-self: stretch;
+    align-self: center; */
     grid-area: socd;
 
 
 }
 
 .contenedor .rotacion{
-    justify-self: stretch;
-    align-self: center;
+    /* justify-self: stretch;
+    align-self: center; */
     grid-area: rotacion;
 
 
 }
 
 .contenedor .intercambio{
-    justify-self: stretch;
-    align-self: center;
+    /* justify-self: stretch;
+    align-self: center; */
     grid-area: intercambio;
 
 
 }
 .contenedor .compatibilidad{
-    justify-self: stretch;
-    align-self: center;
+    /* justify-self: stretch;
+    align-self: center; */
     grid-area: compatibilidad;
 
 
 }
 .contenedor .conectividad{
-    justify-self: stretch;
-    align-self: center;
+    /* justify-self: stretch;
+    align-self: center; */
     grid-area: conectividad;
 
 
@@ -85,6 +87,11 @@
         color:rgb(255, 255, 255);
         
     }
+    img {
+        width: 300px; /* anchura */
+        aspect-ratio: 16/9; /* relación de aspecto */
+        
+      }
     .contenedor{
         font-size: 35px;
         grid-template-areas:    "header         header          header"
