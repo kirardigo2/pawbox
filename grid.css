@@ -103,12 +103,10 @@
 
 
     .contenedor{
-        font-size: 35px;
-        grid-template-rows: 220px 1fr 120px 1fr 1fr 1fr;
+        font-size: 15px;
+        grid-template-rows: 220px 1fr 1fr 1fr 1fr;
         grid-template-areas:    "header         header          header"
-                                "socd           socd            socd"
-                                "rotacion       rotacion        rotacion"
-                                "intercambio    intercambio     intercambio"
+                                "socd           rotacion        intercambio"
                                 "sidebar1       sidebar2        sidebar2"
                                 "conectividad   compatibilidad  compatibilidad"
                                 "footer         footer          footer";
