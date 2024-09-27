@@ -100,8 +100,8 @@
         
         
     }
-    .mishi{
-        width: 75px; /* anchura */
+    img{
+        width: 140px; /* anchura */
         justify-self: stretch;
         align-self: center;
         
