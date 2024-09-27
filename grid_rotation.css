@@ -1,0 +1,101 @@
+.contenedor {
+    display: grid;
+    gap:20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 400px 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+    grid-template-areas:    "header         header"
+                            "rotacion       rotacion"
+                            "modo1          modo2"
+                            "img1           img2"
+                            "img1           img2"
+                            "img1           img2"
+                            "footer         footer";
+
+    /*horizontal auto stretch, end, start, center
+    justify-items: center;
+    vertical
+    align-items: center; */
+
+    
+
+}
+.contenedor .header{
+    background: #f88000;
+    grid-area: header;
+
+
+}
+
+
+.contenedor .footer{
+    background: #0a0000;
+    grid-area: footer;
+
+}
+
+
+
+.contenedor .modo1{
+    /* justify-self: stretch;
+    align-self: center; */
+    background: #0a0000;
+    grid-area: modo1;
+
+
+}
+
+.contenedor .modo2{
+    /* justify-self: stretch;
+    align-self: center; */
+    background: #0a0000;
+    grid-area: modo2;
+
+
+}
+
+
+.contenedor .img1{
+    grid-area: img1;
+}
+.contenedor .img2{
+    grid-area: img2;
+}
+
+.contenedor .rotacion{
+    grid-area: rotacion;
+}
+
+@media screen and (max-width:768px){
+    body{
+        background: #d60909;
+        color:rgb(255, 255, 255);
+        
+    }
+    .caja{
+        width: 300px; /* anchura */
+        
+        
+    }
+    .mishi{
+        width: 75px; /* anchura */
+        justify-self: stretch;
+        align-self: center;
+        
+
+    }
+
+
+    .contenedor{
+        font-size: 15px;
+        grid-template-rows: 220px repeat(6, 100px);
+        grid-template-areas:    "header         header"
+                                "rotacion       rotacion"
+                                "modo1          modo1"
+                                "img1           img1"
+                                "modo2          modo2"
+                                "img2           img2"
+                                "footer         footer";
+
+    }
+}
