@@ -1,16 +1,20 @@
 .contenedor {
     display: grid;
     gap:20px;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat (11, auto);
     
-    grid-template-areas:    "header         header          header"
-                            "socd           socd            socd"
-                            "modo1          img1            img1"
-                            "modo2          img2            img2"
-                            "modo3          img3            img3"
-                            "modo4          img4            img4"
-                            "footer         footer          footer";
+    grid-template-areas:    "header         header"
+                            "socd           socd"
+                            "modo1          modo1"
+                            "img1           img2"
+                            "modo2          modo2"
+                            "img3           img4"
+                            "modo3          modo3"
+                            "img5           img6"
+                            "modo4          modo4"
+                            "img7           img8"                            
+                            "footer         footer";
 
     /*horizontal auto stretch, end, start, center
     justify-items: center;
@@ -39,6 +43,8 @@
 .contenedor .socd{
     /* justify-self: stretch;
     align-self: center; */
+    background: #f88000;
+    color: #0a0000;
     grid-area: socd;
 
 
@@ -91,6 +97,28 @@
     grid-area: img4;
 }
 
+.contenedor .img5{
+    grid-area: img5;
+}
+.contenedor .img6{
+    grid-area: img6;
+}
+.contenedor .img7{
+    grid-area: img7;
+}
+.contenedor .img8{
+    grid-area: img8;
+}
+
+.contenedor .du{
+    background: #0a0000;
+    grid-area: du;
+}
+.contenedor .lr1{
+    background: #0a0000;
+    grid-area: lr1;
+}
+
 @media screen and (max-width:768px){
     body{
         background: #d60909;
@@ -103,7 +131,7 @@
         
     }
     img{
-        width: 200px; /* anchura */
+        width: 270px; /* anchura */
         justify-self: stretch;
         align-self: center;
         
@@ -113,18 +141,22 @@
 
     .contenedor{
         font-size: 15px;
-        grid-template-rows: auto 100px 100px 200px 100px 200px 100px 200px 100px 200px 100px;
-        grid-template-areas:    "header         header          header"
-                                "socd           socd            socd"
-                                "modo1          modo1           modo1"
-                                "img1           img1            img1"
-                                "modo2          modo2           modo2"
-                                "img2           img2            img2"
-                                "modo3          modo3           modo3"
-                                "img3           img3            img3"
-                                "modo4          modo4           modo4"
-                                "img4           img4            img4"                                                                                                
-                                "footer         footer          footer";
+        grid-template-rows: repat(15, auto);
+        grid-template-areas:    "header         header"
+                                "socd           socd"
+                                "modo1          modo1"
+                                "img1           img1"
+                                "img2           img2"
+                                "modo2          modo2"
+                                "img3           img3"
+                                "img4           img4"
+                                "modo3          modo3"
+                                "img5           img5"
+                                "img6           img6"
+                                "modo4          modo4"
+                                "img7           img7"
+                                "img8           img8"                                                                                                
+                                "footer         footer";
 
     }
 }
