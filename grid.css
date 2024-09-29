@@ -109,9 +109,11 @@
 
         grid-template-rows: auto 1fr 1fr 1fr 1fr;
         grid-template-areas:    "header         header          header"
-                                "socd           rotacion        intercambio"
-                                "sidebar1       sidebar2        sidebar2"
-                                "conectividad   compatibilidad  compatibilidad"
+                                "socd           socd            socd"
+                                "intercambio    intercambio     intercambio"
+                                "rotacion       rotacion        rotacion"
+                                "compatibilidad compatibilidad  compatibilidad"
+                                "conectividad   conectividad    conectividad"
                                 "footer         footer          footer";
 
     }
