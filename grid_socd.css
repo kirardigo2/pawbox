@@ -2,7 +2,7 @@
     display: grid;
     gap:20px;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 400px 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr 1fr 1fr 1fr 1fr 1fr;
     
     grid-template-areas:    "header         header          header"
                             "socd           socd            socd"
@@ -23,6 +23,8 @@
 .contenedor .header{
     background: #f88000;
     grid-area: header;
+    top:0;
+    position: sticky;
 
 
 }
@@ -101,7 +103,7 @@
         
     }
     img{
-        width: 140px; /* anchura */
+        width: 200px; /* anchura */
         justify-self: stretch;
         align-self: center;
         
@@ -111,7 +113,7 @@
 
     .contenedor{
         font-size: 15px;
-        grid-template-rows: 220px repeat(10, 100px);
+        grid-template-rows: auto 100px 100px 200px 100px 200px 100px 200px 100px 200px 100px;
         grid-template-areas:    "header         header          header"
                                 "socd           socd            socd"
                                 "modo1          modo1           modo1"

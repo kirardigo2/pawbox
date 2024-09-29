@@ -2,7 +2,7 @@
     display: grid;
     gap:20px;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 400px 1fr 200px 1fr 1fr;
+    grid-template-rows: auto 1fr 200px 1fr 1fr;
     
     grid-template-areas:    "header         header          header"
                             "sidebar1       socd            sidebar2"
@@ -21,6 +21,8 @@
 .contenedor .header{
     background: #f88000;
     grid-area: header;
+    top:0;
+    position: sticky;
 
 
 }
@@ -104,7 +106,8 @@
 
     .contenedor{
         font-size: 15px;
-        grid-template-rows: 220px 1fr 1fr 1fr 1fr;
+
+        grid-template-rows: auto 1fr 1fr 1fr 1fr;
         grid-template-areas:    "header         header          header"
                                 "socd           rotacion        intercambio"
                                 "sidebar1       sidebar2        sidebar2"
