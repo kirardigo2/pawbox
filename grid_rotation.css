@@ -2,7 +2,7 @@
     display: grid;
     gap:20px;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 400px 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr 1fr 1fr 1fr 1fr 1fr;
     
     grid-template-areas:    "header         header"
                             "rotacion       rotacion"
@@ -88,7 +88,7 @@
 
     .contenedor{
         font-size: 15px;
-        grid-template-rows: 220px repeat(6, 100px);
+        grid-template-rows: auto repeat(6, 100px);
         grid-template-areas:    "header         header"
                                 "rotacion       rotacion"
                                 "modo1          modo1"
