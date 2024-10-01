@@ -3,12 +3,13 @@
     gap:20px;
     
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto 1fr 200px 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto 100px;
     
     grid-template-areas:    "header         header          header"
-                            "sidebar1       socd            sidebar2"
-                            "sidebar1       rotacion        sidebar2"
-                            "conectividad   intercambio     compatibilidad"
+                            "rotacion       socd            intercambio"
+                            "layout         layout          conectividad"
+                            "codigo         turbo           youtube"
+                            "colegio        interfaz        compatibilidad"
                             "footer         footer          footer";
 
     /*horizontal auto stretch, end, start, center
@@ -25,18 +26,6 @@
     top:0;
     position: sticky;
 
-
-}
-
-.contenedor .sidebar1{
-    background: #0800f8;
-    grid-area: sidebar1;
-
-}
-
-.contenedor .sidebar2{
-    background: #000000;
-    grid-area: sidebar2;
 
 }
 
@@ -74,6 +63,7 @@
     /* justify-self: stretch;
     align-self: center; */
     grid-area: compatibilidad;
+    background: #ffffff;
 
 
 }
@@ -81,10 +71,60 @@
     /* justify-self: stretch;
     align-self: center; */
     grid-area: conectividad;
+    background: #ffffff;
 
 
 }
 
+.contenedor .layout{
+    /* justify-self: stretch;
+    align-self: center; */
+    grid-area: layout;
+    background: #ffffff;
+
+
+}
+
+.contenedor .codigo{
+    /* justify-self: stretch;
+    align-self: center; */
+    grid-area: codigo;
+    background: #ffffff;
+
+
+}
+
+.contenedor .interfaz{
+    /* justify-self: stretch;
+    align-self: center; */
+    grid-area: interfaz;
+    background: #ffffff;
+
+
+}
+.contenedor .turbo{
+    /* justify-self: stretch;
+    align-self: center; */
+    grid-area: turbo;
+    background: #ffffff; 
+
+
+}
+
+.contenedor .colegio{
+    /* justify-self: stretch;
+    align-self: center; */
+    grid-area: colegio;
+    background: #ffffff;
+}
+
+.contenedor .youtube{
+
+    grid-area: youtube;
+    background: #ffffff;
+
+
+}
 @media screen and (max-width:768px){
     body{
         background: #d60909;
@@ -103,19 +143,37 @@
         
 
     }
+    .layoutimg{
+        width: 200px; /* anchura */
+
+        
+
+    }
+    .socdimg{
+        width: 200px; /* anchura */
+
+        
+
+    }
 
 
     .contenedor{
         font-size: 15px;
 
-        grid-template-rows: auto 1fr 1fr 1fr 1fr;
-        grid-template-areas:    "header         header          header"
-                                "socd           socd            socd"
-                                "intercambio    intercambio     intercambio"
-                                "rotacion       rotacion        rotacion"
-                                "compatibilidad compatibilidad  compatibilidad"
-                                "conectividad   conectividad    conectividad"
-                                "footer         footer          footer";
+        grid-template-rows: auto repeat(12, auto);
+        grid-template-areas:    "header          header          header"
+                                "socd            socd            socd"
+                                "intercambio     intercambio     intercambio"
+                                "rotacion        rotacion        rotacion"
+                                "compatibilidad  compatibilidad  compatibilidad"
+                                "conectividad    conectividad    conectividad"
+                                "youtube         youtube         youtube"
+                                "turbo           turbo           turbo"
+                                "codigo          codigo          codigo"
+                                "layout          layout          layout"
+                                "interfaz        interfaz        interfaz"
+                                "colegio         colegio         colegio"
+                                "footer          footer          footer";
 
     }
 }

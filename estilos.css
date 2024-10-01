@@ -38,7 +38,43 @@ body {
 	box-shadow: 2px 2px 10px rgba(0,0,0,.25);
 }
 .mishi{
-	width: 100px; /* anchura */
+	width: 250px; /* anchura */
+	
+
+}
+
+.layoutimg{
+	width: 500px; /* anchura */
+	
+
+}
+.codigoimg{
+	width: 250px; /* anchura */
+	
+
+}
+.interfazimg{
+	width: 250px; /* anchura */
+	
+
+}
+.youtubeimg{
+	width: 300px; /* anchura */
+	
+
+}
+.turboimg{
+	width: 250px; /* anchura */
+	
+
+}
+.usbimg{
+	width: 250px; /* anchura */
+	
+
+}
+.ps3img{
+	width: 250px; /* anchura */
 	
 
 }
