@@ -2,10 +2,12 @@
     display: grid;
     gap:20px;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto repeat(8, auto);
     
     grid-template-areas:    "header         header"
                             "rotacion       rotacion"
+                            "descripcion    descripcion"
+                            "medio          medio"
                             "modo1          modo2"
                             "img1           img2"
                             "img1           img2"
@@ -31,6 +33,7 @@
 .contenedor .footer{
     background: #0a0000;
     grid-area: footer;
+    color:#ffffff;
 
 }
 
@@ -41,6 +44,7 @@
     align-self: center; */
     background: #0a0000;
     grid-area: modo1;
+    color:#ffffff;
 
 
 }
@@ -50,6 +54,7 @@
     align-self: center; */
     background: #0a0000;
     grid-area: modo2;
+    color:#ffffff;
 
 
 }
@@ -64,6 +69,13 @@
 
 .contenedor .rotacion{
     grid-area: rotacion;
+}
+.contenedor .descripcion{
+    grid-area: descripcion;
+}
+
+.contenedor .medio{
+    grid-area: medio;
 }
 
 @media screen and (max-width:768px){

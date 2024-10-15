@@ -31,7 +31,7 @@
 .contenedor .footer{
     background: #0a0000;
     grid-area: footer;
-
+    color:#ffffff;
 }
 
 .contenedor .movimiento{
@@ -47,7 +47,7 @@
     align-self: center; */
     background: #0a0000;
     grid-area: modo1;
-
+    color:#ffffff;
 
 }
 
@@ -56,7 +56,7 @@
     align-self: center; */
     background: #0a0000;
     grid-area: modo2;
-
+    color:#ffffff;
 
 }
 

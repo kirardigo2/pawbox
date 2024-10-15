@@ -37,6 +37,7 @@
 .contenedor .footer{
     background: #0a0000;
     grid-area: footer;
+    color:#ffffff;
 
 }
 
@@ -55,6 +56,7 @@
     align-self: center; */
     background: #0a0000;
     grid-area: modo1;
+    color:#ffffff;
 
 
 }
@@ -64,6 +66,7 @@
     align-self: center; */
     background: #0a0000;
     grid-area: modo2;
+    color:#ffffff;
 
 
 }
@@ -72,7 +75,7 @@
     align-self: center; */
     background: #0a0000;
     grid-area: modo3;
-
+    color:#ffffff;
 
 }
 .contenedor .modo4{
@@ -80,6 +83,7 @@
     align-self: center; */
     background: #0a0000;
     grid-area: modo4;
+    color:#ffffff;
 
 
 }
@@ -110,13 +114,27 @@
     grid-area: img8;
 }
 
+.imgtop{
+	width: 250px; /* anchura */
+	
+
+}
+
+.imgbot{
+	width: 250px; /* anchura */
+	
+
+}
+
 .contenedor .du{
     background: #0a0000;
     grid-area: du;
+    color:#ffffff;
 }
 .contenedor .lr1{
     background: #0a0000;
     grid-area: lr1;
+    color:#ffffff;
 }
 
 @media screen and (max-width:768px){

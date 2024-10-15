@@ -3,13 +3,13 @@
     gap:20px;
     
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto auto auto auto auto 100px;
+    grid-template-rows: auto auto auto auto 100px;
     
     grid-template-areas:    "header         header          header"
                             "rotacion       socd            intercambio"
                             "layout         layout          conectividad"
                             "codigo         turbo           youtube"
-                            "colegio        interfaz        compatibilidad"
+                           
                             "footer         footer          footer";
 
     /*horizontal auto stretch, end, start, center
@@ -160,19 +160,17 @@
     .contenedor{
         font-size: 15px;
 
-        grid-template-rows: auto repeat(12, auto);
+        grid-template-rows: auto repeat(9, auto);
         grid-template-areas:    "header          header          header"
+       
                                 "socd            socd            socd"
                                 "intercambio     intercambio     intercambio"
                                 "rotacion        rotacion        rotacion"
-                                "compatibilidad  compatibilidad  compatibilidad"
+                                "layout          layout          layout"                                    
                                 "conectividad    conectividad    conectividad"
-                                "youtube         youtube         youtube"
                                 "turbo           turbo           turbo"
                                 "codigo          codigo          codigo"
-                                "layout          layout          layout"
-                                "interfaz        interfaz        interfaz"
-                                "colegio         colegio         colegio"
+                                "youtube         youtube         youtube"
                                 "footer          footer          footer";
 
     }
