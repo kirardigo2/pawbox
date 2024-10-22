@@ -94,7 +94,15 @@
         
 
     }
-
+    .medioimg{
+        width: 200px;
+    }
+    .joy2{
+        width: 120px;
+    }
+    .joy3{
+        width: 120px;
+    }
 
     .contenedor{
         font-size: 15px;

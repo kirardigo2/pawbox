@@ -5,6 +5,7 @@
     grid-template-rows: 1fr 1fr;
     
     grid-template-areas:    "header         header"
+                            "intro          intro"
                     
                             "footer         footer";
 
@@ -19,4 +20,27 @@
     position: sticky;
 
 
+}
+.contenedor .footer{
+    background: #000000;
+    grid-area: footer;
+}
+.contenedor .intro{
+    background: #ffffff;
+    grid-area: intro;
+}
+
+@media screen and (max-width:768px){
+
+
+
+    .contenedor{
+        font-size: 15px;
+       grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, auto);
+        grid-template-areas:    "header header"
+                                "intro  intro"                                                    
+                                "footer footer";
+
+    }
 }
