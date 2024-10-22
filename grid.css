@@ -12,10 +12,6 @@
                            
                             "footer         footer          footer";
 
-    /*horizontal auto stretch, end, start, center
-    justify-items: center;
-    vertical
-    align-items: center; */
 
     
 
@@ -39,6 +35,7 @@
     /* justify-self: stretch;
     align-self: center; */
     grid-area: socd;
+    background: #f88000;
 
 
 }
@@ -46,8 +43,9 @@
 .contenedor .rotacion{
     /* justify-self: stretch;
     align-self: center; */
-    background: #0a0000;
+    
     grid-area: rotacion;
+    background: #f88000;
 
 
 }
@@ -56,6 +54,7 @@
     /* justify-self: stretch;
     align-self: center; */
     grid-area: intercambio;
+    background: #f88000;
 
 
 }
@@ -63,7 +62,7 @@
     /* justify-self: stretch;
     align-self: center; */
     grid-area: compatibilidad;
-    background: #ffffff;
+    background: #f88000;
 
 
 }
@@ -71,7 +70,7 @@
     /* justify-self: stretch;
     align-self: center; */
     grid-area: conectividad;
-    background: #ffffff;
+    background: #f88000;
 
 
 }
@@ -80,7 +79,7 @@
     /* justify-self: stretch;
     align-self: center; */
     grid-area: layout;
-    background: #ffffff;
+    background: #f88000;
 
 
 }
@@ -90,6 +89,8 @@
     align-self: center; */
     grid-area: codigo;
     background: #ffffff;
+    justify-self: stretch;
+    align-self: center;
 
 
 }
@@ -98,7 +99,7 @@
     /* justify-self: stretch;
     align-self: center; */
     grid-area: interfaz;
-    background: #ffffff;
+    background: #f88000;
 
 
 }
@@ -107,6 +108,8 @@
     align-self: center; */
     grid-area: turbo;
     background: #ffffff; 
+    justify-self: stretch;
+    align-self: center;
 
 
 }
@@ -119,10 +122,11 @@
 }
 
 .contenedor .youtube{
-
+    
     grid-area: youtube;
     background: #ffffff;
-
+    justify-self: stretch;
+    align-self: center;
 
 }
 @media screen and (max-width:768px){
@@ -137,30 +141,60 @@
         
     }
     .mishi{
-        width: 75px; /* anchura */
+         /* anchura */
         justify-self: stretch;
         align-self: center;
         
 
     }
     .layoutimg{
-        width: 200px; /* anchura */
+        
+        
+        width: 250px; /* anchura */
 
         
 
     }
     .socdimg{
-        width: 200px; /* anchura */
+        width: 250px; /* anchura */
+
+        
+
+    }
+    .usbimg{
+        width: 250px; /* anchura */
+
+        
+
+    }
+    .rotation{
+        width: 250px; /* anchura */
+
+        
+
+    }
+    .youtubeimg{
+        width: 50px;
+    }
+
+    .turboimg{
+        width: 50px;
+    }
+    .codigoimg{
+        width: 50px;
+    }
+    .movimiento{
+        width: 250px; /* anchura */
 
         
 
     }
 
-
     .contenedor{
         font-size: 15px;
+        grid-template-columns: 1fr 1fr 1fr;
 
-        grid-template-rows: auto repeat(9, auto);
+        grid-template-rows: auto repeat(7, auto);
         grid-template-areas:    "header          header          header"
        
                                 "socd            socd            socd"
@@ -168,9 +202,7 @@
                                 "rotacion        rotacion        rotacion"
                                 "layout          layout          layout"                                    
                                 "conectividad    conectividad    conectividad"
-                                "turbo           turbo           turbo"
-                                "codigo          codigo          codigo"
-                                "youtube         youtube         youtube"
+                                "codigo          turbo           youtube"
                                 "footer          footer          footer";
 
     }

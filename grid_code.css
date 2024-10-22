@@ -1,0 +1,22 @@
+.contenedor {
+    display: grid;
+    gap:20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr;
+    
+    grid-template-areas:    "header         header"
+                    
+                            "footer         footer";
+
+
+    
+
+}
+.contenedor .header{
+    background: #f88000;
+    grid-area: header;
+    top:0;
+    position: sticky;
+
+
+}
