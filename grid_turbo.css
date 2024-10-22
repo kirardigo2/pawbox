@@ -38,18 +38,14 @@
 
 }
 .contenedor .footer{
-    background: #000000;
+    background: #0a0000;
     grid-area: footer;
+    color:#ffffff;
 
 }
 
-
 @media screen and (max-width:768px){
-    body{
-        background: #d60909;
-        color:rgb(255, 255, 255);
-        
-    }
+
     .turbowarp {
         width: 75px;
     }
@@ -59,7 +55,7 @@
 
     .contenedor{
         font-size: 15px;
-       grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(3, auto);
         grid-template-areas:    "header header"
                                 "turbo  scratch"

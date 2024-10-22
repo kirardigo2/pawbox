@@ -5,7 +5,7 @@
 
 body {
 	background: #ffcc00;
-	color: #000;
+	color: #ffffff;
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -86,7 +86,9 @@ body {
 	
 
 }
+
 @media screen and (max-width:768px){
+
 	.logo{
         width: 125px; /* anchura */
         justify-self: stretch;

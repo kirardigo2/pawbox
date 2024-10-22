@@ -28,6 +28,7 @@
 .contenedor .footer{
     background: #0a0000;
     grid-area: footer;
+    color:#ffffff;
 
 }
 

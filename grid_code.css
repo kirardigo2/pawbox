@@ -22,8 +22,10 @@
 
 }
 .contenedor .footer{
-    background: #000000;
+    background: #0a0000;
     grid-area: footer;
+    color:#ffffff;
+
 }
 .contenedor .intro{
     background: #ffffff;
