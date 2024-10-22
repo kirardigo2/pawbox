@@ -1,0 +1,83 @@
+.contenedor {
+    display: grid;
+    gap:20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto 1fr auto;
+    
+    grid-template-areas:    "header         header"
+                            "intro          intro"
+                            "islas          islas"
+                     
+                            "footer         footer";
+
+
+    
+
+}
+.contenedor .header{
+    background: #f88000;
+    grid-area: header;
+    top:0;
+    position: sticky;
+}
+.contenedor .intro{
+    background: #ffffff;
+    grid-area: intro;
+
+
+}
+.contenedor .turbo{
+    background: #ffffff;
+    grid-area: turbo;
+
+
+}
+.contenedor .scratch{
+    background: #ffffff;
+    grid-area: scratch;
+
+
+}
+.contenedor .footer{
+    background: #000000;
+    grid-area: footer;
+
+}
+.contenedor .islas{
+    background: #ffffff;
+    grid-area: islas;
+
+}
+.contenedor .colegio{
+    background: #ffffff;
+    grid-area: colegio;
+
+}
+@media screen and (max-width:768px){
+    body{
+        background: #d60909;
+        color:rgb(255, 255, 255);
+        
+    }
+    .turbowarp {
+        width: 75px;
+    }
+    .islasimg {
+        width: 150px;
+    }
+
+    .colegioimg {
+        width: 150px;
+    }
+
+    .contenedor{
+        font-size: 15px;
+       grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, auto);
+        grid-template-areas:    "header header"
+                                "intro  intro"
+                                "islas  colegio"                                                             
+                                "footer footer";
+
+    }
+}
