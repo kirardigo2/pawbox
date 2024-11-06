@@ -2,13 +2,12 @@
     display: grid;
     gap:20px;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: repeat(5, auto);
     
     grid-template-areas:    "header         header"
                             "intro          intro"
                             "carrusel       carrusel"
                             "islas          colegio"
-                     
                             "footer         footer";
 
 
@@ -20,6 +19,8 @@
     grid-area: header;
     top:0;
     position: sticky;
+    z-index:3;
+   
 }
 .contenedor .intro{
     background: #ffffff;
@@ -55,7 +56,12 @@
     grid-area: colegio;
 
 }
+.contenedor .carrusel{
+    background: #ffffff;
+    grid-area: carrusel;
+    position: bottom;
 
+}
 @media screen and (max-width:768px){
     body{
         background: #d60909;
@@ -75,11 +81,12 @@
 
     .contenedor{
         font-size: 15px;
-       grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(3, auto);
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(5, auto);
         grid-template-areas:    "header     header"
-                                "intro      intro"
                                 "carrusel   carrusel"
+                                "intro      intro"
+                                
                                 "islas      colegio"                                                             
                                 "footer     footer";
 
