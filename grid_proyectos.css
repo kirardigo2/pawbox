@@ -1,13 +1,13 @@
 .contenedor {
     display: grid;
     gap:20px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(5, auto);
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(3, auto);
     
     grid-template-areas:    "header         header"
-                            "intro          intro"
-                            "carrusel       carrusel"
-                            "islas          colegio"
+
+                            "juego          juego"
+
                             "footer         footer";
 
 
@@ -22,73 +22,49 @@
     z-index:3;
    
 }
-.contenedor .intro{
-    background: #ffffff;
-    grid-area: intro;
 
 
-}
-.contenedor .turbo{
-    background: #ffffff;
-    grid-area: turbo;
 
-
-}
-.contenedor .scratch{
-    background: #ffffff;
-    grid-area: scratch;
-
-
-}
 .contenedor .footer{
     background: #0a0000;
     grid-area: footer;
     color:#ffffff;
 
 }
-.contenedor .islas{
-    background: #ffffff;
-    grid-area: islas;
 
-}
-.contenedor .colegio{
-    background: #ffffff;
-    grid-area: colegio;
 
-}
-.contenedor .carrusel{
-    background: #ffffff;
-    grid-area: carrusel;
-    position: bottom;
 
-}
+
 @media screen and (max-width:768px){
     body{
         background: #d60909;
         color:rgb(255, 255, 255);
+       
+
         
     }
-    .turbowarp {
-        width: 75px;
-    }
-    .islasimg {
-        width: 120px;
+    .contenedor .juego{
+        display: flex;
+        background: #55b670;
+        grid-area: juego;
+        transform: rotate(90deg);
+        height: 700px;
+        width: 700px;
+        align-items: flex-end;
     }
 
-    .colegioimg {
-        width: 100px;
-    }
 
     .contenedor{
         font-size: 15px;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(5, auto);
-        grid-template-areas:    "header     header"
-                                "carrusel   carrusel"
-                                "intro      intro"
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+        grid-template-areas:    "header"
+                                "juego"
                                 
-                                "islas      colegio"                                                             
-                                "footer     footer";
+
+                                
+                                                       
+                                "footer";
 
     }
 }
