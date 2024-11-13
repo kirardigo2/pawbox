@@ -3,6 +3,7 @@
     gap:20px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat (11, auto);
+    justify-content: center;
     
     grid-template-areas:    "header         header"
                             "socd           socd"
@@ -115,13 +116,13 @@
 }
 
 .imgtop{
-	width: 250px; /* anchura */
+	width: 900px; /* anchura */
 	
 
 }
 
 .imgbot{
-	width: 250px; /* anchura */
+	width: 900px; /* anchura */
 	
 
 }
@@ -136,6 +137,8 @@
     grid-area: lr1;
     color:#ffffff;
 }
+
+
 
 @media screen and (max-width:768px){
     body{
@@ -156,6 +159,17 @@
 
     }
 
+    .imgtop{
+        width: 300px; /* anchura */
+        
+    
+    }
+    
+    .imgbot{
+        width: 300px; /* anchura */
+        
+    
+    }
 
     .contenedor{
         font-size: 15px;

@@ -2,17 +2,24 @@
     display: grid;
     gap:20px;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(5, auto);
+    grid-template-rows: repeat(3, auto) 100px;
+    justify-content: center;
     
     grid-template-areas:    "header         header"
-                            "intro          intro"
-                            "carrusel       carrusel"
+                            "intro          carrusel"
                             "islas          colegio"
                             "footer         footer";
 
 
     
 
+}
+.islasimg {
+    width: 120px;
+}
+
+.colegioimg {
+    width: 100px;
 }
 .contenedor .header{
     background: #f88000;
@@ -25,6 +32,7 @@
 .contenedor .intro{
     background: #ffffff;
     grid-area: intro;
+    width: 1200px;
 
 
 }
@@ -60,6 +68,7 @@
     background: #ffffff;
     grid-area: carrusel;
     position: bottom;
+    width: 600px;
 
 }
 @media screen and (max-width:768px){
@@ -78,11 +87,25 @@
     .colegioimg {
         width: 100px;
     }
+    .contenedor .carrusel{
+        background: #ffffff;
+        grid-area: carrusel;
+        position: bottom;
+        width: 300px;
+    
+    }
+    .contenedor .intro{
+        background: #ffffff;
+        grid-area: intro;
+        width: 300px;
+    
+    
+    }
 
     .contenedor{
         font-size: 15px;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(5, auto);
+        grid-template-rows: repeat(4, auto) 100px;
         grid-template-areas:    "header     header"
                                 "carrusel   carrusel"
                                 "intro      intro"

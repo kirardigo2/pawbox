@@ -3,13 +3,16 @@
     gap:10px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto repeat(8, auto);
+    justify-content: center;
     
     grid-template-areas:    "header         header"
                             "rotacion       rotacion"
-                            "descripcion    descripcion"
-                            "medio          medio"
                             "modo1          modo2"
                             "img1           img2"
+                            
+                            "descripcion    descripcion"
+                            "medio          video"
+
                             "footer         footer";
 
     /*horizontal auto stretch, end, start, center
@@ -26,6 +29,8 @@
 
 
 }
+
+
 
 
 .contenedor .footer{
@@ -75,6 +80,23 @@
 .contenedor .medio{
     grid-area: medio;
 }
+.contenedor .video{
+    grid-area: video;
+}
+.joy2{
+    width: 900px;
+}
+.joy3{
+    width: 900px;
+}
+.videocon{
+    /*width="315" height="560" */
+    width: 630px;
+    height: 1120px;
+}
+.medioimg{
+    width: 750px;
+}
 
 @media screen and (max-width:768px){
     body{
@@ -103,10 +125,16 @@
     .joy3{
         width: 200px;
     }
+    .videocon{
+        /*width="315" height="560"*/
+        width:300px;
+        height: 533px;
+
+    }
 
     .contenedor{
         font-size: 15px;
-        grid-template-rows: repeat(9, auto);
+        grid-template-rows: repeat(10, auto) ;
         grid-template-areas:    "header         header"
                                 "medio          medio"
                                 "rotacion       rotacion"
@@ -115,6 +143,7 @@
                                 "img1           img1"
                                 "modo2          modo2"
                                 "img2           img2"
+                                "video          video"
                                 "descripcion    descripcion"
                                 "footer         footer";
 
