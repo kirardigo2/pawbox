@@ -6,8 +6,10 @@
     grid-template-rows: auto auto auto auto 100px;
     
     grid-template-areas:    "header         header          header"
-                            "rotacion       socd            intercambio"
-                            "layout         layout          conectividad"
+                            "malvinascon    socd            rotacion"
+                            "conectividad   layout          intercambio"
+                            
+                            
                             "codigo         turbo           youtube"
                            
                             "footer         footer          footer";
@@ -16,6 +18,9 @@
     
 
 }
+
+
+
 .contenedor .header{
     background: #f88000;
     grid-area: header;
@@ -104,6 +109,16 @@
 
 
 }
+
+.contenedor .malvinascon{
+    /* justify-self: stretch;
+    align-self: center; */
+    grid-area: malvinascon;
+    background: #f88000;
+
+
+}
+
 .contenedor .turbo{
     /* justify-self: stretch;
     align-self: center; */
@@ -174,6 +189,12 @@
         
 
     }
+    .malvinasimg{
+        width: 250px; /* anchura */
+
+        
+
+    }
     .youtubeimg{
         width: 50px;
     }
@@ -195,8 +216,9 @@
         font-size: 15px;
         grid-template-columns: 1fr 1fr 1fr;
 
-        grid-template-rows: auto repeat(7, auto);
+        grid-template-rows: auto repeat(8, auto);
         grid-template-areas:    "header          header          header"
+                                "malvinascon     malvinascon     malvinascon"
        
                                 "socd            socd            socd"
                                 "intercambio     intercambio     intercambio"

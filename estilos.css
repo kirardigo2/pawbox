@@ -46,7 +46,7 @@ body {
 }
 
 .layoutimg{
-	width: 300px; /* anchura */
+	width: 600px; /* anchura */
 	
 
 }
@@ -55,8 +55,8 @@ body {
 	
 
 }
-.interfazimg{
-	width: 100px; /* anchura */
+.usbimg{
+	width: 600px; /* anchura */
 	
 
 }
@@ -70,11 +70,7 @@ body {
 	
 
 }
-.usbimg{
-	width: 100px; /* anchura */
-	
 
-}
 .ps3img{
 	width: 100px; /* anchura */
 	
@@ -82,7 +78,7 @@ body {
 }
 
 .socdimg{
-	width: 200px; /* anchura */
+	width: 600px; /* anchura */
 	
 
 }
