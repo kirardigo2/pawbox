@@ -78,26 +78,7 @@ body {
 	width:200px;
 }
 /* contenedores */
-.malvinascon{
-	width:300px;
-}
-.socd{
-	width: 300px;
-}
 
-.rotacion{
-	width:300px;
-}
-.layout{
-	width:300px;
-}
-
-.conectividad{
-	width:300px;
-}
-.intercambio{
-	width:300px;
-}
 @media screen and (max-width:768px){
 
 	.logo{
