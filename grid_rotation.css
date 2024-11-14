@@ -74,10 +74,12 @@
     grid-area: rotacion;
 
 
+
     
 }
 .contenedor .descripcion{
     grid-area: descripcion;
+
 }
 
 .contenedor .medio{
