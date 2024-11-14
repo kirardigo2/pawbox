@@ -10,7 +10,7 @@
                             "modo1          modo2"
                             "img1           img2"
                             
-                            "descripcion    descripcion"
+                            "descripcion2   descripcion2"
                             "medio          video"
 
                             "footer         footer";
@@ -73,11 +73,11 @@
 .contenedor .rotacion{
     grid-area: rotacion;
     justify-self:center;
-    width : 800px;
+
     
 }
-.contenedor .descripcion{
-    grid-area: descripcion;
+.contenedor .descripcion2{
+    grid-area: descripcion2;
 }
 
 .contenedor .medio{
@@ -147,7 +147,7 @@
                                 "modo2          modo2"
                                 "img2           img2"
                                 "video          video"
-                                "descripcion    descripcion"
+                                "descripcion2   descripcion2"
                                 "footer         footer";
 
     }
