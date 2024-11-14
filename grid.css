@@ -120,10 +120,6 @@
    
 
 }
-.malvinasimg{
-
-    
-}
 
 .contenedor .turbo{
     /* justify-self: stretch;
@@ -157,71 +153,48 @@
         color:rgb(255, 255, 255);
         
     }
-    .caja{
-        width: 300px; /* anchura */
-        
-        
-    }
-    .mishi{
-         /* anchura */
-        justify-self: stretch;
-        align-self: center;
-        
-
-    }
-    .layoutimg{
-        
-        
-        width: 250px; /* anchura */
-
-        
-
-    }
-    .socdimg{
-        width: 250px; /* anchura */
-
-        
-
-    }
-    .usbimg{
-        width: 250px; /* anchura */
-
-        
-
-    }
-    .rotation{
-        width: 250px; /* anchura */
-
-        
-
-    }
-    .malvinasimg{
-        width: 250px; /* anchura */
-
-        
-
-    }
-    .youtubeimg{
-        width: 50px;
-    }
-
-    .turboimg{
-        width: 50px;
-    }
     .codigoimg{
-        width: 50px;
+        width: 100px; /* anchura */
+    
     }
-    .movimiento{
-        width: 250px; /* anchura */
-
+    
+    .youtubeimg{
+        width: 100px; /* anchura */
         
+    
+    }
+    .turboimg{
+        width: 100px; /* anchura */
+    }
+    
 
+    /* contenedores */
+    .malvinascon{
+        width:340px;
+    }
+    .socd{
+        width: 340px;
+    }
+    
+    .rotacion{
+        width:340px;
+    }
+    .layout{
+        width:340px;
+    }
+    
+    .conectividad{
+        width:340px;
+    }
+    .intercambio{
+        width:340px;
     }
 
     .contenedor{
+        
         font-size: 15px;
         grid-template-columns: 1fr 1fr 1fr;
-
+        justify-content:center;
         grid-template-rows: auto repeat(8, auto);
         grid-template-areas:    "header          header          header"
                                 "malvinascon     malvinascon     malvinascon"
