@@ -34,7 +34,8 @@
 .contenedor .intro{
     background: #ffffff;
     grid-area: intro;
-    width: 500px;
+    justify-content: center;
+
 
 
 }
@@ -67,10 +68,8 @@
 
 }
 .contenedor .carrusel{
-    background: #ffffff;
     grid-area: carrusel;
-    position: bottom;
-    width: 500px;
+    justify-content: center;
 
 }
 
@@ -95,21 +94,7 @@
     .colegioimg {
         width: 100px;
     }
-    .contenedor .carrusel{
-        background: #ffffff;
-        grid-area: carrusel;
-        position: bottom;
-        width: 320px;
 
-    
-    }
-    .contenedor .intro{
-        background: #ffffff;
-        grid-area: intro;
-        width: 340px;
-    
-    
-    }
 
     .contenedor{
         justify-content: center;
