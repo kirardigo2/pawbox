@@ -55,7 +55,18 @@
     grid-area: colegio;
 
 }
+.contenedor .carrusel{
+    grid-area: carrusel;
+    justify-content: center;
+}
+.islasimg{
+    width:350px;
 
+}
+.colegioimg{
+    width:300px;
+    
+}
 @media screen and (max-width:768px){
     body{
         background: #d60909;

@@ -72,6 +72,9 @@
 
 .contenedor .rotacion{
     grid-area: rotacion;
+    justify-self:center;
+    width : 800px;
+    
 }
 .contenedor .descripcion{
     grid-area: descripcion;
@@ -84,18 +87,18 @@
     grid-area: video;
 }
 .joy2{
-    width: 900px;
+    width: 300px;
 }
 .joy3{
-    width: 900px;
+    width: 300px;
 }
 .videocon{
     /*width="315" height="560" */
-    width: 630px;
-    height: 1120px;
+    width: 315px;
+    height: 560px;
 }
 .medioimg{
-    width: 750px;
+    width: 400px;
 }
 
 @media screen and (max-width:768px){

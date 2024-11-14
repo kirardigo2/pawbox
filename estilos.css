@@ -40,27 +40,14 @@ body {
 	background: #ffffff;
 	
 }
-.mishi{
-	width: 300px; /* anchura */
-	
 
-}
 
-.layoutimg{
-	width: 600px; /* anchura */
-	
 
-}
 .codigoimg{
 	width: 100px; /* anchura */
-	
 
 }
-.usbimg{
-	width: 600px; /* anchura */
-	
 
-}
 .youtubeimg{
 	width: 100px; /* anchura */
 	
@@ -68,22 +55,49 @@ body {
 }
 .turboimg{
 	width: 100px; /* anchura */
-	
-
 }
 
-.ps3img{
-	width: 100px; /* anchura */
-	
+/* imagenes de titulos */
 
+.malvinasimg{
+	width: 200px;
 }
-
 .socdimg{
-	width: 600px; /* anchura */
-	
-
+	width: 200px; 
+}
+.rotationimg{
+	width: 200px;
+}
+.conectividadimg{
+	width: 200px; 
+}
+.layoutimg{
+	width: 200px; 
+}
+.movimientoimg{
+	width:200px;
+}
+/* contenedores */
+.malvinascon{
+	width:300px;
+}
+.socd{
+	width: 300px;
 }
 
+.rotacion{
+	width:300px;
+}
+.layout{
+	width:300px;
+}
+
+.conectividad{
+	width:300px;
+}
+.intercambio{
+	width:300px;
+}
 @media screen and (max-width:768px){
 
 	.logo{

@@ -2,11 +2,12 @@
     display: grid;
     gap:20px;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, auto) 100px;
+    grid-template-rows: repeat(4, auto);
     justify-content: center;
     
     grid-template-areas:    "header         header"
                             "intro          carrusel"
+                            "intro          proyectos"
                             "islas          colegio"
                             "footer         footer";
 
@@ -14,12 +15,13 @@
     
 
 }
-.islasimg {
-    width: 120px;
-}
+.islasimg{
+    width:350px;
 
-.colegioimg {
-    width: 100px;
+}
+.colegioimg{
+    width:300px;
+    
 }
 .contenedor .header{
     background: #f88000;
@@ -32,7 +34,7 @@
 .contenedor .intro{
     background: #ffffff;
     grid-area: intro;
-    width: 1200px;
+    width: 500px;
 
 
 }
@@ -68,9 +70,15 @@
     background: #ffffff;
     grid-area: carrusel;
     position: bottom;
-    width: 600px;
+    width: 500px;
 
 }
+
+.contenedor .proyectos{
+    background: #ffffff;
+    grid-area: proyectos;
+}
+
 @media screen and (max-width:768px){
     body{
         background: #d60909;

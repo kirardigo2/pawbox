@@ -43,11 +43,13 @@
 }
 
 .contenedor .socd{
-    /* justify-self: stretch;
-    align-self: center; */
+    justify-self:center;
+
     background: #f88000;
     color: #0a0000;
     grid-area: socd;
+    width: 1000px;
+
 
 
 }
@@ -116,13 +118,13 @@
 }
 
 .imgtop{
-	width: 900px; /* anchura */
+	width: 500px; /* anchura */
 	
 
 }
 
 .imgbot{
-	width: 900px; /* anchura */
+	width: 500px; /* anchura */
 	
 
 }
@@ -169,6 +171,10 @@
         width: 300px; /* anchura */
         
     
+    }
+    .contenedor .socd{
+        justify-self:center;
+        width: 300px;
     }
 
     .contenedor{
