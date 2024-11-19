@@ -7,9 +7,9 @@
     
     grid-template-areas:    "header         header"
                             "intro          intro"
-                            
-                            "modo1          modo2"
                             "img1           img2"
+                            "modo1          modo2"
+                            
 
                             "movimiento     movimiento"
                             "footer         footer";
@@ -102,7 +102,12 @@
         height: 533px;
 
     }
-
+    .imagen1{
+        width:300px;
+    }
+    .imagen2{
+        width:300px;
+    }
 
     .contenedor{
         font-size: 15px;
