@@ -58,8 +58,9 @@
         grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(5, auto);
         grid-template-areas:    "header header"
-                                "intro  intro"
                                 "layout layout"
+                                "intro  intro"
+                                
                                 "carrusel carrusel"                                                    
                                 "footer footer";
 
