@@ -31,8 +31,14 @@
     background: #ffffff;
     grid-area: intro;
 }
+.epromimg{
+    width:400px;
+}
 
 @media screen and (max-width:768px){
+    .epromimg{
+        width:300px;
+    }
 
 
 
