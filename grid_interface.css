@@ -1,0 +1,82 @@
+.contenedor {
+    display: grid;
+    gap:20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, auto);
+    
+    grid-template-areas:    "header         header"
+                            "intro          intro"
+                            "interfaz         cable"
+                            "carrusel       carrusel"
+                    
+                            "footer         footer";
+
+
+    
+
+}
+.contenedor .header{
+    background: #f88000;
+    grid-area: header;
+    top:0;
+    position: sticky;
+
+
+}
+.contenedor .footer{
+    background: #0a0000;
+    grid-area: footer;
+    color:#ffffff;
+
+}
+.contenedor .intro{
+    background: #ffffff;
+    grid-area: intro;
+    font-size: 32px;
+
+}
+.contenedor .layout{
+    grid-area: layout;
+}
+.layoutimg{
+    width: 800px;
+}
+.contenedor .carrusel{
+    grid-area: carrusel;
+}
+.contenedor .cable{
+    grid-area: cable;
+}
+.contenedor .interfaz{
+    grid-area: interfaz;
+}
+.cableimg{
+    width:400px;
+}
+.interfazimg{
+    width:400px;
+}
+
+
+@media screen and (max-width:768px){
+
+    .interfazimg{
+        width: 150px;
+    }
+    .cableimg{
+        width: 150px;
+    }
+    
+
+    .contenedor{
+        font-size: 32px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(5, auto);
+        grid-template-areas:    "header header"
+                                "intro  intro"
+                                "interfaz cable"
+                                "carrusel carrusel"                                                    
+                                "footer footer";
+
+    }
+}
