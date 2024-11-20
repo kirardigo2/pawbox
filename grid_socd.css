@@ -2,24 +2,29 @@
     display: grid;
     gap:20px;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat (11, auto);
+    grid-template-rows: repeat (13, auto);
     justify-content: center;
     
     grid-template-areas:    "header         header"
                             "socd           socd"
                             "modo1          modo1"
                             "img1           img2"
+                            "video1         video1"
+
                             "modo2          modo2"
                             "img3           img4"
+
                             "modo3          modo3"
                             "img5           img6"
+                            "video3         video3"
                             "modo4          modo4"
-                            "img7           img8"                            
+                            "img7           img8" 
+
                             "footer         footer";
 
     /*horizontal auto stretch, end, start, center
     justify-items: center;
-    vertical
+    verticalc
     align-items: center; */
 
     
@@ -117,6 +122,20 @@
     grid-area: img8;
 }
 
+.contenedor .video1{
+    grid-area: video1;
+}
+.contenedor .video3{
+    grid-area: video3;
+}
+
+.videocon{
+    /*width="315" height="560"*/
+    width:630px;
+    height: 1120px;
+}
+
+
 .imgtop{
 	width: 500px; /* anchura */
 	
@@ -143,6 +162,12 @@
 
 
 @media screen and (max-width:768px){
+    .videocon{
+        /*width="315" height="560"*/
+        width:300px;
+        height: 533px;
+    
+    }
     body{
         background: #d60909;
         color:rgb(255, 255, 255);
@@ -179,18 +204,22 @@
 
     .contenedor{
         font-size: 15px;
-        grid-template-rows: repat(15, auto);
+        grid-template-rows: repat(16, auto);
         grid-template-areas:    "header         header"
                                 "socd           socd"
                                 "modo1          modo1"
                                 "img1           img1"
                                 "img2           img2"
+                                "video1         video1"
+
                                 "modo2          modo2"
                                 "img3           img3"
                                 "img4           img4"
+
                                 "modo3          modo3"
                                 "img5           img5"
                                 "img6           img6"
+                                "video3         video3"
                                 "modo4          modo4"
                                 "img7           img7"
                                 "img8           img8"                                                                                                
