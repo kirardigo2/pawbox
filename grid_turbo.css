@@ -55,7 +55,6 @@
     }
 
     .contenedor{
-        font-size: 15px;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(3, auto);
         grid-template-areas:    "header header"

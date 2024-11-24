@@ -1,4 +1,5 @@
 .contenedor {
+    
     display: grid;
     gap:20px;
     grid-template-columns: repeat(2, 1fr);
@@ -22,12 +23,6 @@
 
                             "footer         footer";
 
-    /*horizontal auto stretch, end, start, center
-    justify-items: center;
-    verticalc
-    align-items: center; */
-
-    
 
 }
 .contenedor .header{
@@ -35,7 +30,6 @@
     grid-area: header;
     top:0;
     position: sticky;
-
 
 }
 
@@ -49,7 +43,6 @@
 
 .contenedor .socd{
     justify-self:center;
-
     background: #ffffff;
     color: #0a0000;
     grid-area: socd;
@@ -203,7 +196,6 @@
     }
 
     .contenedor{
-        font-size: 15px;
         grid-template-rows: repat(16, auto);
         grid-template-areas:    "header         header"
                                 "socd           socd"

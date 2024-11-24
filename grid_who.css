@@ -20,6 +20,7 @@
     grid-area: header;
     top:0;
     position: sticky;
+    z-index:3;
 }
 .contenedor .intro{
     background: #ffffff;
@@ -85,8 +86,7 @@
     }
 
     .contenedor{
-        font-size: 15px;
-       grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(3, auto);
         grid-template-areas:    "header     header"
                                 "intro      intro"

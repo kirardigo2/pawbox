@@ -77,6 +77,12 @@
     width:630px;
     height: 1120px;
 }
+.imagen1{
+    width:500px;
+}
+.imagen2{
+    width:500px;
+}
 
 @media screen and (max-width:768px){
     body{
@@ -110,7 +116,6 @@
     }
 
     .contenedor{
-        font-size: 15px;
         grid-template-rows: auto auto repeat(6, auto);
         grid-template-areas:    "header         header"
                                 "intro          intro"

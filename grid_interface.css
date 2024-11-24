@@ -19,7 +19,9 @@
     background: #f88000;
     grid-area: header;
     top:0;
+
     position: sticky;
+    z-index:3;
 
 
 }

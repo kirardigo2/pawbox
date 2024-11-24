@@ -138,7 +138,6 @@
     }
 
     .contenedor{
-        font-size: 15px;
         grid-template-rows: repeat(10, auto) ;
         grid-template-areas:    "header         header"
                                 "medio          medio"
