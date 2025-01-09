@@ -4,7 +4,7 @@
     justify-content: center;
     
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto auto auto auto auto 100px;
+    grid-template-rows: auto auto auto auto auto auto;
     
     grid-template-areas:    "header         header          header"
                             "malvinascon    socd            rotacion"
