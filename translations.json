@@ -1,0 +1,18 @@
+{
+    "es": {
+        "inicio": "Inicio",
+        "movimiento": "Movimiento",
+        "rotacion":"Rotación",
+        "interfaz":"Interfaz",
+        "codigo":"Código",
+        "quienes":"¿Quiénes Somos?"
+    },
+    "en": {
+        "inicio": "Index",
+        "movimiento": "Movement",
+        "rotacion":"Rotation",
+        "interfaz":"Interface",
+        "codigo":"Code",
+        "quienes":"Who are we?"
+    }
+}
