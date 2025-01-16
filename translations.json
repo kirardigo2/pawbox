@@ -5,7 +5,15 @@
         "rotacion":"Rotación",
         "interfaz":"Interfaz",
         "codigo":"Código",
-        "quienes":"¿Quiénes Somos?"
+        "quienes":"¿Quiénes Somos?",
+
+        "interfaz_title":"Interfaz de comunicación: Plaqueta Arduino Uno",
+        "interfaz_texto":"Programación desarrollada en codigo C. Utilizando el chip ATmega16u2 como Joystick. Puerto de comunicacion USB B. Solo requiere un cable de impresora para conectarse a cualquier dispostivo. Cable USB A-B desmontable. Compatible con PC, PS3, Android.",
+
+        "layout_title":"Control arcade pawBox",
+        "layout_texto":"Diseño inclusivo que permite al usuario utilizar una palanca o botones para el movimiento. La palanca y los botones comparten el canal de comunicación. El movimiento puede configurarse como un stick analogico o la cruceta del mando."
+
+
     },
     "en": {
         "inicio": "Index",
@@ -13,6 +21,13 @@
         "rotacion":"Rotation",
         "interfaz":"Interface",
         "codigo":"Code",
-        "quienes":"Who are we?"
+        "quienes":"Who are we?",
+
+        "interfaz_title":"Communication Interface: Arduino Uno Board",
+        "interfaz_texto":"Code developed in C, using the ATmega16u2 chip as a joystick. USB Type-B communication port. It only requires a printer cable to connect to any device. Detachable USB A-B cable. Compatible with PC, PS3, and Android.",
+
+        "layout_title":"Arcade control pawBox",
+        "layout_texto":"Inclusive design allows the user to use a stick or buttons for movement. The stick and buttons share the communication channel. Movement can be configured as an analog stick or the D-pad on the controller."
+
     }
 }
