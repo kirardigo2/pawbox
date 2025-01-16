@@ -47,6 +47,9 @@ function loadContent() {
         if (document.getElementById('movimiento_title')) {
             document.getElementById('movimiento_title').textContent = translations[currentLanguage].movimiento_title;
         }
+        if (document.getElementById('turbo_texto')) {
+            document.getElementById('turbo_texto').textContent = translations[currentLanguage].turbo_texto;
+        }
 
         document.querySelector('.language-btn').textContent = currentLanguage === 'es' ? 'English' : 'Español';
     }
