@@ -50,6 +50,9 @@ function loadContent() {
         if (document.getElementById('turbo_texto')) {
             document.getElementById('turbo_texto').textContent = translations[currentLanguage].turbo_texto;
         }
+        if (document.getElementById('quienes_texto')) {
+            document.getElementById('quienes_texto').textContent = translations[currentLanguage].quienes_texto;
+        }
 
         document.querySelector('.language-btn').textContent = currentLanguage === 'es' ? 'English' : 'Español';
     }

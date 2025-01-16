@@ -19,8 +19,10 @@
         "modo2":"El último comando presionado tiene prioridad en Izquierda/Derecha. Mientras que Abajo/Arriba tiene como solución Arriba.Modo recomendado para personajes de carga.",
         "modo3":"La solución ante Izquierda/Derecha es Neutral, mientras que Abajo/Arriba tiene como resultado Arriba.Modo recomendado para personajes que hagan uso de movimientos tipo 'U' + Carga.",
         "modo4":"Modo no convencional, tiene prioridad abajo en el eje vertical. Se utiliza en juegos tipo shooter,donde debes hacer algun comando con el botón abajo sin dejar de apuntar arriba.(Slide in Sunsetriders",
-        
-        "turbo_texto":"TurboWarp es un software de desarrollo educativo basado en Scratch, con la diferencia de que a trávez de plugins puede comunicarse con un Joystick. En el colegio 713 Juan Abdala Chayep de Esquel-Chubut se desarrollaron varios juegos interactivos, y ademas se utilizaron controles Arcades desarrollados por el profesor de la materia Entornos Multimediales. La lógica de dichos controles se desarrolló utilizando plaquetas 'UNO'."
+
+        "turbo_texto":"TurboWarp es un software de desarrollo educativo basado en Scratch, con la diferencia de que a trávez de plugins puede comunicarse con un Joystick. En el colegio 713 Juan Abdala Chayep de Esquel-Chubut se desarrollaron varios juegos interactivos, y ademas se utilizaron controles Arcades desarrollados por el profesor de la materia Entornos Multimediales. La lógica de dichos controles se desarrolló utilizando plaquetas 'UNO'.",
+
+        "quienes_texto":"pawBox es una idea que surgió en el ámbito educativo, se desarrolló pensando en como lograr que estudiantes de secundaria usaran plaquetas programables como joysticks enla creación de juegos interactivos en TurboWarp."
 
 
     },
@@ -44,7 +46,9 @@
         "modo3":"The solution to Left/Right is Neutral, while Down/Up results in Up.",
         "modo4":"Unconventional mode, it has priority down in the vertical axis. It is used in a specific game, where you must perform a command with the down button while continuing to aim up.(Slide in Sunsetriders)",
 
-        "turbo_texto":"TurboWarp is an educational development software based on Scratch, with the difference that through plugins it can communicate with a Joystick. At the Juan Abdala Chayep 713 school in Esquel-Chubut, several interactive games were developed, and Arcade controls developed by the Multimedia Environments subject teacher were also used. The logic of these controls was developed using 'UNO' boards."
+        "turbo_texto":"TurboWarp is an educational development software based on Scratch, with the difference that through plugins it can communicate with a Joystick. At the Juan Abdala Chayep 713 school in Esquel-Chubut, several interactive games were developed, and Arcade controls developed by the Multimedia Environments subject teacher were also used. The logic of these controls was developed using 'UNO' boards.",
+        
+        "quienes_texto":"pawBox is an idea that emerged in the educational field, it was developed thinking about how to get high school students to use programmable boards as joysticks in the creation of interactive games in TurboWarp."
 
     }
 }
