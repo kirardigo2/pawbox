@@ -1,5 +1,5 @@
-        let currentLanguage = localStorage.getItem('language') || 'es';
-        let translations = {};
+let currentLanguage = localStorage.getItem('language') || 'es';
+let translations = {};
 
 async function loadTranslations() {
     try {
@@ -19,7 +19,7 @@ function loadContent() {
         document.getElementById('interfaz').textContent = translations[currentLanguage].interfaz;
         document.getElementById('codigo').textContent = translations[currentLanguage].codigo;
         document.getElementById('quienes').textContent = translations[currentLanguage].quienes;
-        
+
         if (document.getElementById('interfaz_title')) {
             document.getElementById('interfaz_title').textContent = translations[currentLanguage].interfaz_title;
         }
@@ -31,6 +31,21 @@ function loadContent() {
         }
         if (document.getElementById('layout_texto')) {
             document.getElementById('layout_texto').textContent = translations[currentLanguage].layout_texto;
+        }
+        if (document.getElementById('modo1')) {
+            document.getElementById('modo1').textContent = translations[currentLanguage].modo1;
+        }
+        if (document.getElementById('modo2')) {
+            document.getElementById('modo2').textContent = translations[currentLanguage].modo2;
+        }
+        if (document.getElementById('modo3')) {
+            document.getElementById('modo3').textContent = translations[currentLanguage].modo3;
+        }
+        if (document.getElementById('modo4')) {
+            document.getElementById('modo4').textContent = translations[currentLanguage].modo4;
+        }
+        if (document.getElementById('movimiento_title')) {
+            document.getElementById('movimiento_title').textContent = translations[currentLanguage].movimiento_title;
         }
 
         document.querySelector('.language-btn').textContent = currentLanguage === 'es' ? 'English' : 'Español';

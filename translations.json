@@ -8,10 +8,17 @@
         "quienes":"¿Quiénes Somos?",
 
         "interfaz_title":"Interfaz de comunicación: Plaqueta Arduino Uno",
-        "interfaz_texto":"Programación desarrollada en codigo C. Utilizando el chip ATmega16u2 como Joystick. Puerto de comunicacion USB B. Solo requiere un cable de impresora para conectarse a cualquier dispostivo. Cable USB A-B desmontable. Compatible con PC, PS3, Android.",
+        "interfaz_texto":"Programación desarrollada en codigo C. Utilizando el chip ATmega16u2 como Joystick. Puerto de comunicacion USB B. Solo requiere un cable de impresora para conectarse a cualquier dispostivo. Cable USB A-B desmontable. Compatible con PC, PS3, Android, y algunos juegos de PS4.",
 
         "layout_title":"Control arcade pawBox",
-        "layout_texto":"Diseño inclusivo que permite al usuario utilizar una palanca o botones para el movimiento. La palanca y los botones comparten el canal de comunicación. El movimiento puede configurarse como un stick analogico o la cruceta del mando."
+        "layout_texto":"Diseño inclusivo que permite al usuario utilizar una palanca o botones para el movimiento. La palanca y los botones comparten el canal de comunicación. El movimiento puede configurarse como un stick analogico o la cruceta del mando.",
+
+        "movimiento_title":"Puedes intercambiar tu control de movimiento entre el analógico izquierdo y la cruceta.",
+        
+        "modo1":"Ante la presión de botones opuestos en la misma acción, el control no emite señal de movimiento (Estado Neutral).Modo convencional.",
+        "modo2":"El último comando presionado tiene prioridad en Izquierda/Derecha. Mientras que Abajo/Arriba tiene como solución Arriba.Modo recomendado para personajes de carga.",
+        "modo3":"La solución ante Izquierda/Derecha es Neutral, mientras que Abajo/Arriba tiene como resultado Arriba.Modo recomendado para personajes que hagan uso de movimientos tipo 'U' + Carga.",
+        "modo4":"Modo no convencional, tiene prioridad abajo en el eje vertical. Se utiliza en juegos tipo shooter,donde debes hacer algun comando con el botón abajo sin dejar de apuntar arriba.(Slide in Sunsetriders)"
 
 
     },
@@ -24,10 +31,16 @@
         "quienes":"Who are we?",
 
         "interfaz_title":"Communication Interface: Arduino Uno Board",
-        "interfaz_texto":"Code developed in C, using the ATmega16u2 chip as a joystick. USB Type-B communication port. It only requires a printer cable to connect to any device. Detachable USB A-B cable. Compatible with PC, PS3, and Android.",
+        "interfaz_texto":"Code developed in C, using the ATmega16u2 chip as a joystick. USB Type-B communication port. It only requires a printer cable to connect to any device. Detachable USB A-B cable. Compatible with PC, PS3, Android and some games for PS4.",
 
         "layout_title":"Arcade control pawBox",
-        "layout_texto":"Inclusive design allows the user to use a stick or buttons for movement. The stick and buttons share the communication channel. Movement can be configured as an analog stick or the D-pad on the controller."
+        "layout_texto":"Inclusive design allows the user to use a stick or buttons for movement. The stick and buttons share the communication channel. Movement can be configured as an analog stick or D-pad.",
+
+        "movimiento_title":"You can sawp your movement control beetwen Left Stick and D-Pad.",
+        "modo1":"When pressing opposite buttons in the same action, the control does not emit a movement signal (Neutral State). Conventional mode.",
+        "modo2":"The last command pressed takes priority over Left/Right. While Down/Up has Up as its solution. Recommended mode for charge characters.",
+        "modo3":"The solution to Left/Right is Neutral, while Down/Up results in Up.",
+        "modo4":"Unconventional mode, it has priority down in the vertical axis. It is used in a specific game, where you must perform a command with the down button while continuing to aim up.(Slide in Sunsetriders)"
 
     }
 }
