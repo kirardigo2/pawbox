@@ -34,7 +34,7 @@
         "interfaz_texto":"Code developed in C, using the ATmega16u2 chip as a joystick. USB Type-B communication port. It only requires a printer cable to connect to any device. Detachable USB A-B cable. Compatible with PC, PS3, Android and some games for PS4.",
 
         "layout_title":"Arcade control pawBox",
-        "layout_texto":"Inclusive design allows the user to use a stick or buttons for movement. The stick and buttons share the communication channel. Movement can be configured as an analog stick or D-pad.",
+        "layout_texto":"Combination of traditional arcade joystick and leverless controller, allows the user to use a stick or buttons for movement. The stick and buttons share the communication channel. Movement can be configured as an analog stick or D-pad.",
 
         "movimiento_title":"You can sawp your movement control beetwen Left Stick and D-Pad.",
         "modo1":"When pressing opposite buttons in the same action, the control does not emit a movement signal (Neutral State). Conventional mode.",
