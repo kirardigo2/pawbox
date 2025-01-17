@@ -29,8 +29,7 @@
 					<div class="offcanvas-body">
 						<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
 					  <li class="nav-item">
-						<a id="inicio" class="nav-link active" aria-current="page">Inicio</a>
-					  </li>
+						<a id="inicio" class="nav-link active" href="index.html">Inicio</a>					  </li>
 					  <li class="nav-item">
 						<a class="nav-link active" href="socd.html">SOCD</a>
 					  </li>
@@ -69,17 +68,19 @@
 		
 		</div>
 		<div class="intro">
-			<p>
-				<h1>Firmware pawBox</h1>
+			<h1>Firmware pawBox</h1>
+			<p id="code_texto1" >				
 				El algoritmo de los controles pawBox esta completamente desarrollado en C,
 				utiliza la libreria <a href="https://github.com/AlanChatham/UnoJoy.git">unojoy.h</a> desarrollada por
 				 Alan Chatham.
 				No necesita ningún tipo de plaqueta adicional tipo SOCD Cleaner. Su lógica ya incorpora 
 				Cuatro modos de limpieza SOCD, rotación Izquierda o Derecha, ademas de poder 
 				intercambiar entre Stick y D-Pad.
-				<br> 
+			</p>
+				
 				<img class="epromimg" src="/img/eprom.png" alt="eprom">
 				<br>
+			<p id="code_texto2" >
 				Cuando se Activa un modo de juego el mismo queda guardado en
 				la memoria Eprom del controlador, asi que mantiene la configuración despues de haber sido 
 				desconectado.
@@ -88,11 +89,9 @@
 				y hasta con dispositivos Android.
 				Cada control posee un un número de serie único que se detalla en el nombre del
 				dispositivo, esto es para poder indentificarlo si se conectan varios controles al mismo equipo.
-
-
-
 			</p>
-			<img src="/img/github.png" alt="github">
+			<a href="https://github.com/AlanChatham/UnoJoy.git"><img src="/img/github.png" alt="unojoy.h"></a>
+			
 
 		</div>
 

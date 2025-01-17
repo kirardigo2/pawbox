@@ -53,6 +53,45 @@ function loadContent() {
         if (document.getElementById('quienes_texto')) {
             document.getElementById('quienes_texto').textContent = translations[currentLanguage].quienes_texto;
         }
+        if (document.getElementById('code_texto1')) {
+            document.getElementById('code_texto1').textContent = translations[currentLanguage].code_texto1;
+        }
+        if (document.getElementById('code_texto2')) {
+            document.getElementById('code_texto2').textContent = translations[currentLanguage].code_texto2;
+        }
+
+        if (document.getElementById('rotacion_title1')) {
+            document.getElementById('rotacion_title1').textContent = translations[currentLanguage].rotacion_title1;
+        }
+        if (document.getElementById('rotacion_title2')) {
+            document.getElementById('rotacion_title2').textContent = translations[currentLanguage].rotacion_title2;  
+        }
+
+        if (document.getElementById('rotacion_texto1')) {
+            document.getElementById('rotacion_texto1').textContent = translations[currentLanguage].rotacion_texto1;  
+        }
+        if (document.getElementById('rotacion_texto2')) {
+            document.getElementById('rotacion_texto2').textContent = translations[currentLanguage].rotacion_texto2;  
+        }
+
+        if (document.getElementById('turn_left')) {
+            document.getElementById('turn_left').textContent = translations[currentLanguage].turn_left;  
+        }
+        if (document.getElementById('turn_right')) {
+            document.getElementById('turn_right').textContent = translations[currentLanguage].turn_right;
+        }
+        if (document.getElementById('turn_left2')) {
+            document.getElementById('turn_left2').textContent = translations[currentLanguage].turn_left2;  
+        }
+        if (document.getElementById('turn_right2')) {
+            document.getElementById('turn_right2').textContent = translations[currentLanguage].turn_right2;
+        }
+        if (document.getElementById('mame')) {
+            document.getElementById('mame').textContent = translations[currentLanguage].mame;
+        }
+        if (document.getElementById('dreamcast')) {
+            document.getElementById('dreamcast').textContent = translations[currentLanguage].dreamcast;  
+        }
 
         document.querySelector('.language-btn').textContent = currentLanguage === 'es' ? 'English' : 'Español';
     }

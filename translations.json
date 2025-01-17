@@ -22,7 +22,21 @@
 
         "turbo_texto":"TurboWarp es un software de desarrollo educativo basado en Scratch, con la diferencia de que a trávez de plugins puede comunicarse con un Joystick. En el colegio 713 Juan Abdala Chayep de Esquel-Chubut se desarrollaron varios juegos interactivos, y ademas se utilizaron controles Arcades desarrollados por el profesor de la materia Entornos Multimediales. La lógica de dichos controles se desarrolló utilizando plaquetas 'UNO'.",
 
-        "quienes_texto":"pawBox es una idea que surgió en el ámbito educativo, se desarrolló pensando en como lograr que estudiantes de secundaria usaran plaquetas programables como joysticks enla creación de juegos interactivos en TurboWarp."
+        "quienes_texto":"pawBox es una idea que surgió en el ámbito educativo, se desarrolló pensando en como lograr que estudiantes de secundaria usaran plaquetas programables como joysticks enla creación de juegos interactivos en TurboWarp.",
+
+        "code_texto1":"El algoritmo de los controles pawBox esta completamente desarrollado en C, utiliza la libreria unojoy.h desarrollada por Alan Chatham. No necesita ningún tipo de plaqueta adicional tipo SOCD Cleaner. Su lógica ya incorpora Cuatro modos de limpieza SOCD, rotación Izquierda o Derecha, ademas de poder intercambiar entre Stick y D-Pad.",
+        "code_texto2":"Cuando se Activa un modo de juego el mismo queda guardado en la memoria Eprom del controlador, asi que mantiene la configuración despues de haber sido desconectado. No necesita software de terceros ya que el firmware del mismo es detectado nativamente como un joystick de PS3. Haciendolo compatible con PC (Windows y Linux), Playstation 3, y hasta con dispositivos Android. Cada control posee un un número de serie único que se detalla en el nombre del dispositivo, esto es para poder indentificarlo si se conectan varios controles al mismo equipo.",
+
+        "rotacion_title1":"Rotación:",
+        "rotacion_title2":"Rota tu control hacia un lado y disfruta de juegos arcades verticales en tu pantalla horizontal.",
+        "rotacion_texto1":"Muchos juegos arcades han sido desarrollados para pantallas verticales, y al ser emulados en pantallas horizontales como monitores y televisores se pierde la relacion de aspecto original, comprimiendo la interfaz de usuario y perdiendo gran area gráfica de juego. Para activar el modo vertical del juego se debe acceder a las opciones del mismo, o activar el modo TATE en el emulador. Una vez activado el modo vertical se debe rotar la pantalla o el control.",
+        "rotacion_texto2":"Girar la pantalla podria ser algo problematico, pero girar un control podria ser mas conveniente. Podrias crear una nueva configuración desde el software del emulador y cargarla cada vez que inicies el juego. Pero como esto puede llegar a ser algo confuso, desde el firmware se propone una rotación de los controles de movimiento en el eje horizontal. Dando a seleccionar cual se adapte mas a nuestro juego. Cabe mencionar que existen títulos que nos dan la posibilidad de rotar nuestro control desde el menú opciones.",
+        "turn_left":"Rotación Izquierda",
+        "turn_right":"Rotación Derecha",
+        "turn_left2":"Rota tu control a la izquierda.",
+        "turn_right2":"Rota tu control a la Derecha.",
+        "mame":"Compatible con Mame",
+        "dreamcast":"Compatible con Dreamcast"
 
 
     },
@@ -48,7 +62,21 @@
 
         "turbo_texto":"TurboWarp is an educational development software based on Scratch, with the difference that through plugins it can communicate with a Joystick. At the Juan Abdala Chayep 713 school in Esquel-Chubut, several interactive games were developed, and Arcade controls developed by the Multimedia Environments subject teacher were also used. The logic of these controls was developed using 'UNO' boards.",
         
-        "quienes_texto":"pawBox is an idea that emerged in the educational field, it was developed thinking about how to get high school students to use programmable boards as joysticks in the creation of interactive games in TurboWarp."
+        "quienes_texto":"pawBox is an idea that emerged in the educational field, it was developed thinking about how to get high school students to use programmable boards as joysticks in the creation of interactive games in TurboWarp.",
+
+        "code_texto1":"The pawBox algorithm is completely developed in C, using the unojoy.h library developed by Alan Chatham. It does not require any additional SOCD Cleaner board. Its logic already incorporates four SOCD cleaning modes, Left or Right rotation, and the ability to switch between Stick and D-Pad.",
+        "code_texto2":"When a game mode is activated, it is saved in the controller's Eprom memory, so it retains its configuration even after being disconnected. It does not require third-party software, since the controller's firmware is natively detected as a PS3 joystick. This makes it compatible with PC (Windows and Linux), Playstation 3, and even Android devices. Each controller has a unique serial number that is detailed in the name of the device, this is to identify it if multiple controllers are connected to the same system.",
+
+        "rotacion_title1":"Rotation:",
+        "rotacion_title2":"Rotate your controller to the side and enjoy vertical arcade games on your horizontal screen.",
+        "rotacion_texto1":"Many arcade games have been developed for vertical screens, and when emulated on horizontal screens such as monitors and televisions, the original aspect ratio is lost, compressing the user interface and losing a large graphical playing area. To activate the vertical mode of the game, you must access the game's options, or activate the TATE mode in the emulator. Once the vertical mode is activated, you must rotate the screen or the controller.",
+        "rotacion_texto2":"Rotating the screen might be a bit of a hassle, but rotating a controller might be more convenient. You could create a new configuration from the emulator software and load it every time you start the game. But since this can be a bit confusing, the firmware proposes a rotation of the motion controls on the horizontal axis. You can select which one best suits your game. It is worth mentioning that there are titles that give you the possibility to rotate your controller from the options menu.",
+        "turn_left":"Left Rotation",
+        "turn_right":"Right Rotation",
+        "turn_left2":"Turn your control to the left.",
+        "turn_right2":"Turn your control to the right.",
+        "mame":"Compatible with Mame",
+        "dreamcast":"Compatible with Dreamcast"
 
     }
 }
