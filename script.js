@@ -98,6 +98,9 @@ function loadContent() {
         if (document.getElementById('malvinas_actividad')) {
             document.getElementById('malvinas_actividad').textContent = translations[currentLanguage].malvinas_actividad;        
         }
+        if (document.getElementById('memory')) {
+            document.getElementById('memory').textContent = translations[currentLanguage].memory;        
+        }
 
         document.querySelector('.language-btn').textContent = currentLanguage === 'es' ? 'English' : 'Español';
     }
