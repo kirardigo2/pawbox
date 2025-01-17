@@ -92,6 +92,12 @@ function loadContent() {
         if (document.getElementById('dreamcast')) {
             document.getElementById('dreamcast').textContent = translations[currentLanguage].dreamcast;  
         }
+        if (document.getElementById('malvinas_texto')) {
+            document.getElementById('malvinas_texto').textContent = translations[currentLanguage].malvinas_texto;        
+        }
+        if (document.getElementById('malvinas_actividad')) {
+            document.getElementById('malvinas_actividad').textContent = translations[currentLanguage].malvinas_actividad;        
+        }
 
         document.querySelector('.language-btn').textContent = currentLanguage === 'es' ? 'English' : 'Español';
     }

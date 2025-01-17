@@ -8,7 +8,7 @@
         "quienes":"¿Quiénes Somos?",
 
         "interfaz_title":"Interfaz de comunicación: Plaqueta Arduino Uno",
-        "interfaz_texto":"Programación desarrollada en codigo C. Utilizando el chip ATmega16u2 como Joystick. Puerto de comunicacion USB B. Solo requiere un cable de impresora para conectarse a cualquier dispostivo. Cable USB A-B desmontable. Compatible con PC, PS3, Android, y algunos juegos de PS4.",
+        "interfaz_texto":"Programación desarrollada en codigo C. Utilizando el chip ATmega16u2 como Joystick. Puerto de comunicacion USB B. Solo requiere un cable de impresora para conectarse a cualquier dispostivo. Cable USB A-B desmontable. Compatible con PC, PS3, Android, y algunos juegos de PS4. Este dispositivo funcionará en juegos de PS4 que implementen soporte para controladores PS3",
 
         "layout_title":"Control arcade pawBox",
         "layout_texto":"Diseño inclusivo que permite al usuario utilizar una palanca o botones para el movimiento. La palanca y los botones comparten el canal de comunicación. El movimiento puede configurarse como un stick analogico o la cruceta del mando.",
@@ -36,7 +36,10 @@
         "turn_left2":"Rota tu control a la izquierda.",
         "turn_right2":"Rota tu control a la Derecha.",
         "mame":"Compatible con Mame",
-        "dreamcast":"Compatible con Dreamcast"
+        "dreamcast":"Compatible con Dreamcast",
+
+        "malvinas_texto":"El aula Malvinas pertenece al Colegio 713 de la localidad de Esquel Chubut, y en segundo año de secundaria en los talleres de la técnicatura en informática se dá la materia Entornos Multimediales. En la misma se desarrollan juegos interactivos, para los cuales los estudiantes deben familiarizarse con distintos controles. En este último año el dia 4 de Mayo se les asigna la actividad 1982, para conmemorar el Día de la Aviación Naval Argentina.",
+        "malvinas_actividad":"A continuación se exponen algunos proyectos realizados por los chicos:"
 
 
     },
@@ -49,7 +52,7 @@
         "quienes":"Who are we?",
 
         "interfaz_title":"Communication Interface: Arduino Uno Board",
-        "interfaz_texto":"Code developed in C, using the ATmega16u2 chip as a joystick. USB Type-B communication port. It only requires a printer cable to connect to any device. Detachable USB A-B cable. Compatible with PC, PS3, Android and some games for PS4.",
+        "interfaz_texto":"Code developed in C, using the ATmega16u2 chip as a joystick. USB Type-B communication port. It only requires a printer cable to connect to any device. Detachable USB A-B cable. Compatible with PC, PS3, Android and some games for PS4. This device will work on PS4 games that implement support for legacy PS3 controllers",
 
         "layout_title":"Arcade control pawBox",
         "layout_texto":"Combination of traditional arcade joystick and leverless controller, allows the user to use a stick or buttons for movement. The stick and buttons share the same communication channel. Movement can be configured as an analog stick or D-pad.",
@@ -76,7 +79,10 @@
         "turn_left2":"Turn your control to the left.",
         "turn_right2":"Turn your control to the right.",
         "mame":"Compatible with Mame",
-        "dreamcast":"Compatible with Dreamcast"
+        "dreamcast":"Compatible with Dreamcast",
+
+        "malvinas_texto":"The Malvinas classroom belongs to the 713 School in the city of Esquel-Chubut, in second year of high school, in the computer science labs, students take a subject called Multimedia Environments. In it, interactive games are developed, for which students must become familiar with different controls. In this last year, on May 4, they are assigned the activity 1982, to commemorate the Argentine Naval Aviation Day.",
+        "malvinas_actividad":"Below are some of the projects carried out by the students:"
 
     }
 }
