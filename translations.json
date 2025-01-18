@@ -59,7 +59,7 @@
         "layout_title":"Arcade control pawBox",
         "layout_texto":"Combination of traditional arcade joystick and leverless controller, allows the user to use a stick or buttons for movement. The stick and buttons share the same communication channel. Movement can be configured as an analog stick or D-pad.",
 
-        "movimiento_title":"You can sawp your movement control beetwen Left Stick and D-Pad.",
+        "movimiento_title":"You can swap your movement control beetwen Left Stick and D-Pad.",
 
         "modo1":"When pressing opposite buttons in the same action, the control does not emit a movement signal (Neutral State). Conventional mode.",
         "modo2":"The last command pressed takes priority over Left/Right. While Down/Up has Up as its solution. Recommended mode for charge characters.",
