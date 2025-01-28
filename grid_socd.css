@@ -3,7 +3,7 @@
     display: grid;
     gap:20px;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat (13, auto);
+    grid-template-rows: repeat (15, auto);
     justify-content: center;
     
     grid-template-areas:    "header         header"
@@ -14,12 +14,15 @@
 
                             "modo2          modo2"
                             "img3           img4"
+                            "video2         video2"
 
                             "modo3          modo3"
                             "img5           img6"
                             "video3         video3"
+
                             "modo4          modo4"
-                            "img7           img8" 
+                            "img7           img8"
+                            "video4         video4" 
 
                             "footer         footer";
 
@@ -121,6 +124,12 @@
 .contenedor .video3{
     grid-area: video3;
 }
+.contenedor .video2{
+    grid-area: video2;
+}
+.contenedor .video4{
+    grid-area: video4;
+}
 
 .videocon{
     /*width="315" height="560"*/
@@ -196,7 +205,7 @@
     }
 
     .contenedor{
-        grid-template-rows: repat(16, auto);
+        grid-template-rows: repat(18, auto);
         grid-template-areas:    "header         header"
                                 "socd           socd"
                                 "modo1          modo1"
@@ -207,14 +216,18 @@
                                 "modo2          modo2"
                                 "img3           img3"
                                 "img4           img4"
+                                "video2         video2"
 
                                 "modo3          modo3"
                                 "img5           img5"
                                 "img6           img6"
                                 "video3         video3"
+
                                 "modo4          modo4"
                                 "img7           img7"
-                                "img8           img8"                                                                                                
+                                "img8           img8"
+                                "video4         video4"
+                                                                                                                                
                                 "footer         footer";
 
     }
