@@ -1,4 +1,7 @@
+
 .contenedor {
+
+    
     display: grid;
     gap:20px;
     grid-template-columns: repeat(2, 1fr);
@@ -38,21 +41,36 @@
 }
 .contenedor .layout{
     grid-area: layout;
+    font-size: 30px;
+    display: grid; /* Usar grid dentro del layout */
+    justify-items: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
 }
 .layoutimg{
     width: 800px;
+    
 }
 .contenedor .carrusel{
     grid-area: carrusel;
 }
 
 
+table, td , th {
+    border: 1px solid black !important; /* !important fuerza el estilo*/
+}
+
+
 @media screen and (max-width:768px){
 
-    .layoutimg{
+
+    .layoutimg {
         width: 300px;
+
     }
-    
+    .contenedor .layout{
+        font-size: 12px;
+    }
+
 
     .contenedor{
         
