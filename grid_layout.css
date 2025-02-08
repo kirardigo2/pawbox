@@ -77,10 +77,12 @@ table, td , th {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(5, auto);
         grid-template-areas:    "header header"
-                                "layout layout"
-                                "intro  intro"
+                                "carrusel carrusel" 
                                 
-                                "carrusel carrusel"                                                    
+                                "intro  intro"
+                                "layout layout"
+                                
+                                                                                   
                                 "footer footer";
 
     }
