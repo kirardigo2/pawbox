@@ -34,7 +34,11 @@
 .contenedor .intro{
     background: #ffffff;
     grid-area: intro;
-    font-size: 32px;
+
+    font-size: 30px;
+    display: grid; /* Usar grid dentro del layout */
+    justify-items: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
 
 }
 .contenedor .layout{
@@ -59,7 +63,9 @@
     width:400px;
 }
 
-
+table, td , th {
+    border: 1px solid black !important; /* !important fuerza el estilo*/
+}
 @media screen and (max-width:768px){
 
     .interfazimg{
@@ -68,10 +74,15 @@
     .cableimg{
         width: 150px;
     }
+    .contenedor .intro{
+        font-size: 24px;
+    }
     
 
     .contenedor{
-        font-size: 32px;
+       
+        
+
         grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(5, auto);
         grid-template-areas:    "header header"
