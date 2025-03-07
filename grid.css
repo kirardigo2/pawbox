@@ -4,11 +4,12 @@
     justify-content: center;
     
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto;
     
     grid-template-areas:    "header         header          header"
                             "malvinascon    socd            rotacion"
                             "conectividad   layout          intercambio"
+                            "graveyard      stick           stickcase"
                             "carrusel       carrusel        carrusel"
                             
                             
@@ -20,7 +21,24 @@
     
 
 }
-
+.contenedor .graveyard{
+    /* justify-self: stretch;
+    align-self: center; */
+    grid-area: graveyard;
+    background: #f88000;
+}
+.contenedor .stick{
+    /* justify-self: stretch;
+    align-self: center; */
+    grid-area: stick;
+    background: #f88000;
+}
+.contenedor .stickcase{
+    /* justify-self: stretch;
+    align-self: center; */
+    grid-area: stickcase;
+    background: #f88000;
+}
 
 
 .contenedor .header{
@@ -179,7 +197,7 @@
         
         grid-template-columns: 1fr 1fr 1fr;
         justify-content:center;
-        grid-template-rows: auto repeat(9, auto);
+        grid-template-rows: auto repeat(10, auto);
         grid-template-areas:    "header          header          header"
                                 "malvinascon     malvinascon     malvinascon"
        
@@ -188,6 +206,9 @@
                                 "rotacion        rotacion        rotacion"
                                 "layout          layout          layout"                                    
                                 "conectividad    conectividad    conectividad"
+                                "graveyard       graveyard       graveyard"
+                                "stick           stick           stick"
+                                "stickcase       stickcase       stickcase"
                                 "carrusel        carrusel        carrusel"
                                 "codigo          turbo           youtube"
                                 "footer          footer          footer";

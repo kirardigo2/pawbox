@@ -77,6 +77,15 @@ body {
 .movimientoimg{
 	width:200px;
 }
+.graveyardimg{
+	width:200px;
+}
+.stickimg{
+	width:200px;
+}
+.stickcaseimg{
+	width:200px;
+}
 /* contenedores */
 
 @media screen and (max-width:768px){
