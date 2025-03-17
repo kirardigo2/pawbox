@@ -10,6 +10,7 @@
                             "malvinascon    socd            rotacion"
                             "conectividad   layout          intercambio"
                             "graveyard      stick           stickcase"
+                            "school         pvp             tutorials"
                             "carrusel       carrusel        carrusel"
                             
                             
@@ -25,6 +26,24 @@
     /* justify-self: stretch;
     align-self: center; */
     grid-area: graveyard;
+    background: #f88000;
+}
+.contenedor .pvp{
+    /* justify-self: stretch;
+    align-self: center; */
+    grid-area: pvp;
+    background: #f88000;
+}
+.contenedor .tutorials{
+    /* justify-self: stretch;
+    align-self: center; */
+    grid-area: tutorials;
+    background: #f88000;
+}
+.contenedor .school{
+    /* justify-self: stretch;
+    align-self: center; */
+    grid-area: school;
     background: #f88000;
 }
 .contenedor .stick{
@@ -200,6 +219,9 @@
         grid-template-rows: auto repeat(10, auto);
         grid-template-areas:    "header          header          header"
                                 "malvinascon     malvinascon     malvinascon"
+                                "pvp             pvp             pvp"
+                                "school          school          school"
+                                "tutorials       tutorials       tutorials"
        
                                 "socd            socd            socd"
                                 "intercambio     intercambio     intercambio"
