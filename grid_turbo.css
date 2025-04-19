@@ -5,7 +5,7 @@
     grid-template-rows: auto 1fr auto;
     
     grid-template-areas:    "header         header"
-                            "turbo          scratch"
+                            "turbo          turbo"
                             "intro          intro"
                      
                             "footer         footer";
@@ -27,11 +27,16 @@
 
 }
 .contenedor .turbo{
-    background: #ffffff;
     grid-area: turbo;
-
+    background: #ffffff;
 
 }
+.contenedor .turbo .turboframe{
+    width:485px; 
+    height:402px; 
+
+}
+
 .contenedor .scratch{
     background: #ffffff;
     grid-area: scratch;
@@ -53,12 +58,17 @@
     .scratchimg {
         width: 150px;
     }
+    .contenedor .turbo .turboframe{
+        width: 291px;
+        height: 241px;
+    
+    }
 
     .contenedor{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(3, auto);
         grid-template-areas:    "header header"
-                                "turbo  scratch"
+                                "turbo  turbo"
                                 "intro  intro"                                                             
                                 "footer footer";
 
