@@ -4,13 +4,14 @@
     justify-content: center;
     
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
     
     grid-template-areas:    "header         header          header"
-                            "malvinascon    socd            rotacion"
+                            
                             "conectividad   layout          intercambio"
-                            "graveyard      stick           stickcase"
-                            "school         pvp             tutorials"
+                            "malvinascon    socd            rotacion"
+                            "graveyard      stick           tutorials"
+
                             "carrusel       carrusel        carrusel"
                             
                             
@@ -191,8 +192,8 @@
 }
 @media screen and (max-width:768px){
     body{
-        background: #d60909;
-        color:rgb(255, 255, 255);
+        background: white;
+        
         
     }
     .codigoimg{
@@ -216,21 +217,17 @@
         
         grid-template-columns: 1fr 1fr 1fr;
         justify-content:center;
-        grid-template-rows: auto repeat(10, auto);
+        grid-template-rows: auto repeat(6, auto);
         grid-template-areas:    "header          header          header"
                                 "malvinascon     malvinascon     malvinascon"
-                                "pvp             pvp             pvp"
-                                "school          school          school"
                                 "tutorials       tutorials       tutorials"
-       
+                                "graveyard       graveyard       graveyard"
                                 "socd            socd            socd"
                                 "intercambio     intercambio     intercambio"
                                 "rotacion        rotacion        rotacion"
                                 "layout          layout          layout"                                    
                                 "conectividad    conectividad    conectividad"
-                                "graveyard       graveyard       graveyard"
                                 "stick           stick           stick"
-                                "stickcase       stickcase       stickcase"
                                 "carrusel        carrusel        carrusel"
                                 "codigo          turbo           youtube"
                                 "footer          footer          footer";
