@@ -8,8 +8,8 @@
     
     grid-template-areas:    "header         header          header"
                             
-                            "conectividad   layout          intercambio"
-                            "malvinascon    socd            rotacion"
+                            "conectividad   malvinascon     intercambio"
+                            "rotacion       socd            layout "
                             "graveyard      stick           tutorials"
 
                             "carrusel       carrusel        carrusel"
@@ -224,9 +224,10 @@
                                 "graveyard       graveyard       graveyard"
                                 "socd            socd            socd"
                                 "intercambio     intercambio     intercambio"
-                                "rotacion        rotacion        rotacion"
+                                
                                 "layout          layout          layout"                                    
                                 "conectividad    conectividad    conectividad"
+                                "rotacion        rotacion        rotacion"
                                 "stick           stick           stick"
                                 "carrusel        carrusel        carrusel"
                                 "codigo          turbo           youtube"
