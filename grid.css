@@ -191,8 +191,9 @@
     grid-area: carrusel;
 }
 @media screen and (max-width:768px){
+    
     body{
-        background: white;
+        background: rgb(255, 255, 255);
         
         
     }
