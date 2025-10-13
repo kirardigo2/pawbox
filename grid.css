@@ -220,6 +220,7 @@
         justify-content:center;
         grid-template-rows: auto repeat(6, auto);
         grid-template-areas:    "header          header          header"
+                                "carrusel        carrusel        carrusel"
                                 "malvinascon     malvinascon     malvinascon"
                                 "tutorials       tutorials       tutorials"
                                 "graveyard       graveyard       graveyard"
@@ -230,7 +231,7 @@
                                 "conectividad    conectividad    conectividad"
                                 "rotacion        rotacion        rotacion"
                                 "stick           stick           stick"
-                                "carrusel        carrusel        carrusel"
+                                
                                 "codigo          turbo           youtube"
                                 "footer          footer          footer";
 
